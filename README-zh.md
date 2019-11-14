@@ -28,6 +28,10 @@
 
 打开终端(linux/mac)或者cmd(windows)
 
+注意:linux需要开启ip转发功能,否则docker中的服务将无法连接到网络
+> 开启ip转发
+	`echo 1 > /proc/sys/net/ipv4/ip_forward`
+
 ```bash
 git clone git@github.com:gyk001/viabtc_exchange_server_docker.git
 cd viabtc_exchange_server_docker
