@@ -26,8 +26,11 @@ This repo do this things automatic:
 # Startup
 
 Open a terminal(linux/mac) or cmd(windows)
-linux platform need open IP FORWARD . otherwise networking will be not working.
+
+linux platform need open IP FORWARD . otherwise networking will be not working.  
+
 `echo 1 > /proc/sys/net/ipv4/ip_forward` #open ip forward .
+
 ```bash
 git clone git@github.com:gyk001/viabtc_exchange_server_docker.git
 cd viabtc_exchange_server_docker
